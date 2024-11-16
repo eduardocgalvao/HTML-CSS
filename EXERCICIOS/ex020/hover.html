@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+</head>
+
+<style>
+
+    div > p{
+        display: none;
+        
+    }
+
+    div:hover > p{
+        background-color: rgb(136, 127, 255);
+        color: aqua;
+        display: block;
+        width: 300px;
+    }
+
+    #link:hover{
+        color: red;
+    }
+
+    a:link{
+        color: blue;
+    }
+
+    a:visited{
+        color: blueviolet;
+    }
+
+    a:hover{
+        color: blueviolet;
+    }
+
+    a:active{
+        color: #0000FF;
+    }
+
+    input:focus{
+        background-color: gray;
+        border: none;
+    }
+
+    
+</style>
+<body>
+    <h1>Exemplo de <em>hover</em></h1>
+<div>
+    
+        <h2 id="link">Clique aqui</h2>
+        <p>texto escondido...</p>
+
+        <h1>Link visitado</h1>
+        <a href="https://www.youtube.com/watch?v=3YxaaGgTQYM">
+            <h2>link</h2>
+        </a>
+
+</div>
+    <p lang="us"> something</p>
+    <input type="text" placeholder="email">
+    <p>fim.</p>
+    
+</body>
+</html>

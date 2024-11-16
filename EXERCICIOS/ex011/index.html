@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Liguagem dinâmica</h1>
+    <p>Abrir em dispositivos diferentes ou so mudar o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 550px )" srcset="imagens/foto-p.png" type="image/png">
+       <source media="(max-width: 1050px )" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">  
+    </picture>
+
+    <h1>Vamos adicionar áudio</h1>
+    <p>Musica</p>
+    <audio src="midia/x2mate.com - QUE VENHA O TEU REINO __ PROJETO DE VIDA 2024 _ _ IEQ B PARAISO (128 kbps).mp3" controls autoplay loop
+    ></audio>
+    <!-- Compativel com MP3, WAV, OGG -->
+     <p>podcast</p>
+    <audio preload="metadata" autoplay controls >
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav"type="audio/wav">
+        <p>Infelizmente seun navegador não suportou nenhum tipo de áudio</p>
+    </audio>
+
+    <h1>Inserindo vídeos</h1>
+    
+</body>
+</html>
